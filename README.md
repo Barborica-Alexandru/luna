@@ -1,6 +1,6 @@
 ## This repository contains modified scripts which currently seem to work fine on a raspbian + kodi basic install. 
-## Scripts were generalised and should no longer require root permissions. 
-## They might no longer work on OSMC but generally should work on any debian based distro
+Scripts were generalised and should no longer require root permissions. 
+They might no longer work on OSMC but generally should work on any debian based distro
 
 
 ![alt tag](https://raw.github.com/wackerl91/luna/master/icon.png)
