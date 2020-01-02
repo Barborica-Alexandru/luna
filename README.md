@@ -1,3 +1,8 @@
+# This repository contains modified scripts which currently seem to work fine on a raspbian + kodi basic install. 
+# Scripts were generalised and should no longer require root permissions. 
+# They might no longer work on OSMC but generally should work on any debian based distro
+
+
 ![alt tag](https://raw.github.com/wackerl91/luna/master/icon.png)
 
 Luna aims to be a one-size-fits-all Moonlight launcher for Kodi. Even though it's tailored for OSMC right now, it can be easily extended to support pretty much any platform where both Kodi and Moonlight Embedded are available. 
