@@ -18,12 +18,9 @@ if [ -z "{PRE_SCRIPT}" ]; then
     ${PRE_SCRIPT} \"${HOST}\" \"${GAME}\"
 fi
 
-echo "running sh Heartbeat"
 sh $HEARTBEAT_PATH \"${POST_SCRIPT}\" &&
 
-echo "launching moonlight"
 echo ${CONF_PATH}
-#echo `$LAUNCHER_PATH ${HOST} "${GAME}" "${CONF_PATH}"`
 bash $LAUNCHER_PATH ${HOST} "${GAME}" "${CONF_PATH}"
 
 sleep 2
